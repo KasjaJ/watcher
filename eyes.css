@@ -1,0 +1,79 @@
+html {
+  font-family: helvetica;
+  width: 100vw;
+}
+
+body {
+  background-color: black;
+  color: darkslategray;
+  text-align: center; 
+}
+
+
+h1 {
+  font-size: 70pt;
+  margin-bottom: 0;
+}
+
+
+
+.eyes {
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+
+}
+
+
+.eye {
+  width: 11rem;
+  height: 10rem;
+  background-color: whitesmoke;
+  display: inline-block;
+  margin: 1%;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.ball {
+  width: 5rem;
+  height: 5rem;
+  background-color: darkslategray;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+/*  border: 1.5rem solid darkslategray; */
+ 
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+  body {
+    margin: 6%
+  }
+
+  h1 {
+    font-size: 35pt;
+  }
+
+  .eye {
+    width: 8rem;
+    height: 7rem;
+    margin: 1%;
+  }
+
+  .ball {
+    width: 4rem;
+    height: 4rem;
+  }
+}
