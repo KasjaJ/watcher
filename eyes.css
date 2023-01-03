@@ -36,6 +36,7 @@ img {
   margin-top: 0;
   height: 60vh;
   display: inline;
+  cursor: pointer;
 }
 
 
